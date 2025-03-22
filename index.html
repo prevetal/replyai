@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Adapting the page for mobile devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Prohibition of phone number recognition -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Page title -->
+		<title>Заголовок страницы</title>
+
+		<!-- Meta description -->
+		<meta name="description" content="">
+
+		<!-- Meta Keywords -->
+		<meta name="keywords" content="">
+
+		<!-- Changing the color of the mobile browser panel -->
+		<meta name="msapplication-TileColor" content="#FF724E">
+		<meta name="theme-color" content="#FF724E">
+
+		<!-- Connecting fonts from Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+
+		<!-- Connecting style files -->
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="block">
+					<div class="cont">
+						<div class="data">
+							<div class="logo">
+								<img src="images/logo.svg" alt="" loading="lazy">
+								<img src="images/logo_white.svg" alt="" loading="lazy" class="white">
+							</div>
+
+							<nav class="menu row">
+								<div><button class="btn scroll_btn" data-anchor="about_info">О нас</button></div>
+
+								<div><button class="btn scroll_btn" data-anchor="how_it_works">Как это работает</button></div>
+
+								<div><button class="btn scroll_btn" data-anchor="tariffs">Тарифы</button></div>
+
+								<div><button class="btn scroll_btn" data-anchor="FAQ">Преимущества</button></div>
+
+								<div><button class="btn scroll_btn" data-anchor="footer">Контакты</button></div>
+							</nav>
+
+							<button class="get_btn modal_btn" data-modal="order_modal">Попробовать</button>
+
+							<button class="theme_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_sun"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_moon"></use></svg>
+							</button>
+
+							<div class="contacts">
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+									<a href="tel:+7 (938) 400 48 28">+7 (938) 400 48 28</a>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+									<a href="mailto:welcome@replyai.ru">welcome@replyai.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header block">
+					<div class="cont">
+						<div class="data">
+							<div class="logo">
+								<img src="images/logo.svg" alt="" loading="lazy">
+								<img src="images/logo_white.svg" alt="" loading="lazy" class="white">
+							</div>
+
+							<button class="mob_menu_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close2"></use></svg>
+							</button>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="first_section block">
+					<div class="cont row">
+						<div class="data">
+							<div class="title"><span>AI</span> аналитик</div>
+
+							<div class="desc">Ваш помощник для простой и эффективной работы с данными</div>
+
+							<div class="btns">
+								<button class="get_btn modal_btn" data-modal="order_modal">Попробовать</button>
+
+								<a href="/" class="link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_ver"></use></svg>
+								</a>
+							</div>
+						</div>
+
+						<div class="chat">
+							<div class="dialog">
+								<div class="scroll">
+
+								</div>
+
+								<div class="icons">
+									<button class="btn download_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_download"></use></svg>
+									</button>
+
+									<button class="btn like_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+									</button>
+
+									<button class="btn dislike_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+									</button>
+
+									<button class="btn file_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+									</button>
+								</div>
+							</div>
+
+							<div class="btns">
+								<button class="btn">
+									<span>Какой процент клиентов пользуется услугами такси?</span>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+								</button>
+
+								<button class="btn">
+									<span>Топ-5 наиболее активных клиентов по возрасту</span>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+								</button>
+
+								<button class="btn">
+									<span>Топ-5 городов, с наибольшим средним доходом от покупок в супермаркетах?</span>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about_info block" id="about_info">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">{ О нас }</div>
+						</div>
+
+						<div class="row">
+							<picture class="image">
+								<source srcset="images/about_info_img.webp" type="image/webp">
+
+								<img src="images/about_info_img.png" alt="" loading="lazy">
+							</picture>
+
+							<picture class="image dark">
+								<source srcset="images/about_info_img_dark.webp" type="image/webp">
+
+								<img src="images/about_info_img_dark.png" alt="" loading="lazy">
+							</picture>
+
+							<div class="data">
+								<div class="logo">
+									<img src="images/logo.svg" alt="">
+									<img src="images/logo_white.svg" alt="" class="white">
+								</div>
+
+								<div class="desc">Контролируйте все данные, которые влияют на Ваш бизнес. Задавайте вопросы на привычном языке, получайте ответы, формируйте графики, анализируйте  и сохраняйте.</div>
+
+								<button class="get_btn modal_btn" data-modal="order_modal">Попробовать</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="advantages block">
+					<div class="cont">
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_advantage1"></use></svg>
+								</div>
+
+								<div class="name">Аналитика ваших данных</div>
+
+								<div class="desc">Получайте информацию основанную на данных именно вашей компании</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_advantage2"></use></svg>
+								</div>
+
+								<div class="name">Простой доступ</div>
+
+								<div class="desc">Задавайте вопросы онлайн в любое время</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_advantage3"></use></svg>
+								</div>
+
+								<div class="name">Работать может каждый</div>
+
+								<div class="desc">Сотрудники получат ответы быстро и самостоятельно. Не требуются специальные компетенции по работе с данными</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="how_it_works block" id="how_it_works">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">{ Как это работает }</div>
+						</div>
+
+						<div class="row">
+							<div class="data">
+								<div class="title">Ответы сразу, без перерыва на обед</div>
+
+								<div class="desc">Откройте для себя инсайты данных за секунды, просто задавая вопросы. Создавайте красивые диаграммы и визуализации, просто общаясь с ИИ. Задавайте уточняющие вопросы, чтобы раскрыть истинные движущие факторы.</div>
+
+								<button class="get_btn modal_btn" data-modal="order_modal">Попробовать</button>
+							</div>
+
+							<picture class="image">
+								<source srcset="images/how_it_works_img.webp" type="image/webp">
+
+								<img src="images/how_it_works_img.png" alt="" loading="lazy">
+							</picture>
+
+							<picture class="image dark">
+								<source srcset="images/how_it_works_img_dark.webp" type="image/webp">
+
+								<img src="images/how_it_works_img_dark.png" alt="" loading="lazy">
+							</picture>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="dashboards block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Сохраняйте данные на дашбордах</div>
+
+							<div class="desc">Полученные данные преобразуются в графики и сохраняются на дашбордах одной кнопкой. Используйте графики в своих презентациях и отчетах. Делитесь данными с тем, с кем считаете нужным.</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<picture class="image">
+										<source srcset="images/dashboards_img1.webp" type="image/webp">
+
+										<img src="images/dashboards_img1.png" alt="" loading="lazy">
+									</picture>
+
+									<picture class="image dark">
+										<source srcset="images/dashboards_img1_dark.webp" type="image/webp">
+
+										<img src="images/dashboards_img1_dark.png" alt="" loading="lazy">
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture class="image">
+										<source srcset="images/dashboards_img1.webp" type="image/webp">
+
+										<img src="images/dashboards_img1.png" alt="" loading="lazy">
+									</picture>
+
+									<picture class="image dark">
+										<source srcset="images/dashboards_img1_dark.webp" type="image/webp">
+
+										<img src="images/dashboards_img1_dark.png" alt="" loading="lazy">
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture class="image">
+										<source srcset="images/dashboards_img1.webp" type="image/webp">
+
+										<img src="images/dashboards_img1.png" alt="" loading="lazy">
+									</picture>
+
+									<picture class="image dark">
+										<source srcset="images/dashboards_img1_dark.webp" type="image/webp">
+
+										<img src="images/dashboards_img1_dark.png" alt="" loading="lazy">
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture class="image">
+										<source srcset="images/dashboards_img1.webp" type="image/webp">
+
+										<img src="images/dashboards_img1.png" alt="" loading="lazy">
+									</picture>
+
+									<picture class="image dark">
+										<source srcset="images/dashboards_img1_dark.webp" type="image/webp">
+
+										<img src="images/dashboards_img1_dark.png" alt="" loading="lazy">
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture class="image">
+										<source srcset="images/dashboards_img1.webp" type="image/webp">
+
+										<img src="images/dashboards_img1.png" alt="" loading="lazy">
+									</picture>
+
+									<picture class="image dark">
+										<source srcset="images/dashboards_img1_dark.webp" type="image/webp">
+
+										<img src="images/dashboards_img1_dark.png" alt="" loading="lazy">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="steps block bg_white">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">3 шага</div>
+
+							<div class="desc">до эффективной аналитики</div>
+						</div>
+
+						<div class="row">
+							<div class="item">
+								<div class="name">Установка</div>
+
+								<div class="icons">
+									<img src="images/ic_step1.svg" alt="" loading="lazy">
+									<img src="images/ic_step1_dark.svg" alt="" loading="lazy" class="dark">
+								</div>
+
+								<div class="desc">Интеграция в пару кликов</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Загрузите ваши данные</div>
+
+								<div class="icons">
+									<img src="images/ic_step2.svg" alt="" loading="lazy">
+									<img src="images/ic_step2.svg" alt="" loading="lazy" class="dark">
+								</div>
+
+								<div class="desc">Безопасная загрузка из любых источников</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Задавайте вопросы</div>
+
+								<div class="icons">
+									<img src="images/ic_step3.svg" alt="" loading="lazy">
+									<img src="images/ic_step3_dark.svg" alt="" loading="lazy" class="dark">
+								</div>
+
+								<div class="desc">Ответы строятся на ваших базах</div>
+							</div>
+						</div>
+
+						<div class="guarantees">
+							<div>
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_secure"></use></svg>
+								</div>
+
+								<div>Данные в безопасности и не передаются во внешний контур.</div>
+							</div>
+
+							<div>
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_upload"></use></svg>
+								</div>
+
+								<div>Любые загруженные данные и базы могут быть удалены пользователем в любой момент.</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="tariffs block" id="tariffs">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">{ Тарифы }</div>
+						</div>
+
+						<div class="row">
+							<div class="tariff">
+								<div class="number">|</div>
+
+								<div class="name">Бесплатно</div>
+
+								<div class="desc">
+									<div>База до 10 тыс. строк</div>
+									<div>Не более 3 запросов в день</div>
+								</div>
+
+								<button class="get_btn modal_btn" data-modal="order_modal">Попробовать</button>
+							</div>
+
+							<div class="tariff">
+								<div class="number">||</div>
+
+								<div class="name">$20/мес</div>
+
+								<div class="desc">
+									<div>База до 10 млн. строк</div>
+									<div>До 50 запросов в день</div>
+								</div>
+
+								<button class="get_btn modal_btn" data-modal="order_modal">Попробовать</button>
+							</div>
+
+							<div class="tariff highlighted">
+								<div class="number">|||</div>
+
+								<div class="name">По запросу</div>
+
+								<div class="desc">
+									<div>Решение для компаний с интеграцией источников данных</div>
+								</div>
+
+								<button class="get_btn modal_btn" data-modal="order_modal">Попробовать</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="FAQ block" id="FAQ">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">{ Преимущества }</div>
+						</div>
+
+						<div class="accordion">
+							<div class="accordion_item">
+								<div class="head">
+									<div class="title">Экономия времени 870 часов в год</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arrow_ver2"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">Для отдела продаж из 5 сотрудников, руководителя отдела и топ менеджера. Экономия времени каждого сотрудника 30 минут в день, приводит к общей экономии в 870 часов в год</div>
+							</div>
+
+							<div class="accordion_item">
+								<div class="head">
+									<div class="title">Экономия >1 000 000/год</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arrow_ver2"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">Для отдела продаж из 5 сотрудников, руководителя отдела и топ менеджера. Экономия времени каждого сотрудника 30 минут в день, приводит к общей экономии в 870 часов в год</div>
+							</div>
+
+							<div class="accordion_item">
+								<div class="head">
+									<div class="title">Личная эффективность сотрудников продаж +20%</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arrow_ver2"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">Для отдела продаж из 5 сотрудников, руководителя отдела и топ менеджера. Экономия времени каждого сотрудника 30 минут в день, приводит к общей экономии в 870 часов в год</div>
+							</div>
+
+							<div class="accordion_item">
+								<div class="head">
+									<div class="title">Эффективность маркетинга +30%</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arrow_ver2"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">Для отдела продаж из 5 сотрудников, руководителя отдела и топ менеджера. Экономия времени каждого сотрудника 30 минут в день, приводит к общей экономии в 870 часов в год</div>
+							</div>
+
+							<div class="accordion_item">
+								<div class="head">
+									<div class="title">Скорость анализа +50%</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arrow_ver2"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">Для отдела продаж из 5 сотрудников, руководителя отдела и топ менеджера. Экономия времени каждого сотрудника 30 минут в день, приводит к общей экономии в 870 часов в год</div>
+							</div>
+
+							<div class="accordion_item">
+								<div class="head">
+									<div class="title">Выводы на ваших данных</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arrow_ver2"></use></svg>
+									</div>
+								</div>
+
+								<div class="data">Для отдела продаж из 5 сотрудников, руководителя отдела и топ менеджера. Экономия времени каждого сотрудника 30 минут в день, приводит к общей экономии в 870 часов в год</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer id="footer">
+				<div class="cont">
+					<div class="title">Будь с ReplyAI. Будь на пике</div>
+
+					<div class="desc">Эффективное решение для современных компаний</div>
+
+					<button class="get_demo_btn modal_btn" data-modal="order_modal">Заказать демо</button>
+
+					<div class="contacts">
+						<div class="phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+							<a href="tel:+7 (938) 400 48 28">+7 (938) 400 48 28</a>
+						</div>
+
+						<div class="email">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+							<a href="mailto:welcome@replyai.ru">welcome@replyai.ru</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Заполните форму и мы вышлем вам демо в ближайшее время</div>
+
+			<form action="" class="form">
+				<!-- <div class="line error">
+					<div class="label">Ваш email *</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input" placeholder="Email">
+					</div>
+				</div> -->
+
+				<div class="line">
+					<div class="label">Ваш email *</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input" placeholder="Email">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Email">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Номер телефона *</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="Email">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Получить демо</button>
+				</div>
+
+				<div class="agree">Отправляя заявку, вы соглашаетесь с нашей <a href="/" target="_blank">политикой конфиденциальности</a>. Мы никому не передаем ваши данные.</div>
+			</form>
+		</section>
+
+
+		<section class="modal success" id="success_modal">
+			<svg class="icon"><use xlink:href="images/sprite.svg#ic_success"></use></svg>
+
+			<div class="modal_title">Данные отправлены успешно! Письмо придет на вашу почту в самое ближайшее время.</div>
+
+			<div class="modal_title">Команда ReplyAI</div>
+		</section>
+
+
+		<!-- Connecting javascript files -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,325 @@
+@media (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 56px;
+    }
+
+
+    .block.bg_white
+    {
+        padding: 56px 0;
+    }
+
+
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide,
+    .fancybox__container:not(.is-compact) .fancybox__slide.has-close-btn
+    {
+        padding: 56px 16px 16px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        min-height: 0;
+        padding-right: 64px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .accordion_item .head .icon svg
+    {
+        width: 32px;
+        height: 30px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .data
+    {
+        padding-top: 132px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .data
+    {
+        padding: 16px 24px;
+    }
+
+
+    .mob_header .logo img
+    {
+        width: 62px;
+        height: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        gap: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------------
+        First section
+    -----------------*/
+    .first_section .data .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .first_section .data .get_btn
+    {
+        width: calc(100% - 72px);
+    }
+
+
+
+    .first_section .chat
+    {
+        margin-top: 56px;
+        padding: 16px;
+    }
+
+
+    .first_section .chat .dialog
+    {
+        border-radius: 12px;
+        box-shadow: 0 0 4.479px 0 rgba(19, 20, 19, .20);
+    }
+
+
+    .first_section .chat .scroll
+    {
+        height: 200px;
+    }
+
+
+    .first_section .chat .icons
+    {
+        padding: 12px;
+
+        border-radius: 0 0 12px 12px;
+    }
+
+
+    .first_section .chat .icons .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .first_section .chat .btns .btn
+    {
+        padding: 12px 16px;
+
+        border-radius: 12px;
+        box-shadow: 0 0 4.479px 0 rgba(19, 20, 19, .20);
+    }
+
+
+    .first_section .chat .btns span
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    .first_section .chat .btns .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .advantages .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*----------------
+        Dashboards
+    ----------------*/
+    .dashboards .block_head
+    {
+        padding-bottom: 0;
+    }
+
+
+    .dashboards .swiper
+    {
+        width: calc(100% - 48px);
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .block_head
+    {
+        padding-bottom: 0;
+    }
+
+
+    .steps .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .steps .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees
+    {
+        margin-top: 56px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .tariffs .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .tariffs .tariff .desc,
+    .tariffs .tariff .get_btn
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 56px 0 40px;
+    }
+
+
+    footer .desc
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .get_demo_btn
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 480px;
+        padding: 24px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 32px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 24px;
+    }
+
+
+    .modal.success .icon
+    {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+
+    .modal.success .modal_title + .modal_title
+    {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,165 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-right: 48px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .accordion_item .head .icon svg
+    {
+        width: 28px;
+        height: 26px;
+    }
+
+
+    .accordion_item .data
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------------
+        First section
+    -----------------*/
+    .first_section .chat
+    {
+        width: calc(100% + 32px);
+        max-width: calc(100% + 32px);
+        margin-right: -16px;
+        margin-left: -16px;
+    }
+
+
+    .first_section .chat .btns .btn
+    {
+        font-size: 12px;
+
+        padding: 12px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .about_info .get_btn
+    {
+        height: 56px;
+        padding: 16px 24px;
+    }
+
+
+
+    /*------------------
+        How it works
+    ------------------*/
+    .how_it_works .data .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .how_it_works .data .get_btn
+    {
+        height: 56px;
+        padding: 16px 24px;
+    }
+
+
+
+    /*----------------
+        Dashboards
+    ----------------*/
+    .dashboards .swiper
+    {
+        width: calc(100% - 32px);
+    }
+
+
+    .dashboards .image
+    {
+        border-radius: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 32px 0 48px;
+    }
+
+
+    footer .desc
+    {
+        font-size: 14px;
+    }
+
+
+    footer .get_demo_btn
+    {
+        font-size: 32px;
+
+        width: 100%;
+        padding: 32px;
+    }
+
+
+    footer .contacts
+    {
+        flex-direction: column;
+
+        gap: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 24px 16px;
+
+        border-radius: 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+    }
+
+
+    .modal.success .icon
+    {
+        width: 88px;
+        height: 88px;
+    }
+}

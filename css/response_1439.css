@@ -1,0 +1,339 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_big: 20px;
+        --font_size_title: 80px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .block.bg_white
+    {
+        padding: 64px 0;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        min-height: 56px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .accordion_item .head .icon svg
+    {
+        width: 48px;
+        height: 42px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-top: 32px;
+    }
+
+
+    header .data
+    {
+        padding: 16px 24px;
+    }
+
+
+    header .menu
+    {
+        gap: 60px;
+    }
+
+
+    header .get_btn
+    {
+        font-size: var(--font_size);
+
+        height: 52px;
+        padding: 14px 22px;
+    }
+
+
+    header .theme_btn
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .form .input
+    {
+        height: 56px;
+        padding: 0 23px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 56px;
+        padding: 16px 40px;
+    }
+
+
+    .form .agree
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------------
+        First section
+    -----------------*/
+    .first_section .data
+    {
+        width: 388px;
+    }
+
+
+    .first_section .data .btns
+    {
+        margin-top: 60px;
+    }
+
+
+    .first_section .data .get_btn
+    {
+        height: 56px;
+        padding: 18px 36px;
+    }
+
+
+    .first_section .data .link
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .first_section .data .link .icon
+    {
+        width: 39px;
+        height: 40px;
+    }
+
+
+
+    .first_section .chat
+    {
+        width: 680px;
+    }
+
+
+    .first_section .chat .scroll
+    {
+        height: 300px;
+    }
+
+
+    .first_section .chat .btns .btn
+    {
+        padding: 16px 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: calc(100% - 560px);
+    }
+
+
+    .about_info .data
+    {
+        width: 480px;
+    }
+
+
+    .about_info .get_btn
+    {
+        margin-top: 60px;
+        padding: 18px 36px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------------
+        How it works
+    ------------------*/
+    .how_it_works .data
+    {
+        width: 480px;
+    }
+
+
+    .how_it_works .data .get_btn
+    {
+        margin-top: 60px;
+        padding: 18px 36px;
+    }
+
+
+    .how_it_works .image
+    {
+        width: calc(100% - 560px);
+    }
+
+
+
+    /*----------------
+        Dashboards
+    ----------------*/
+    .dashboards .block_head .desc
+    {
+        width: 440px;
+    }
+
+
+    .dashboards .swiper
+    {
+        width: 640px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees
+    {
+        margin-top: 64px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .tariff
+    {
+        padding: 24px;
+    }
+
+
+    .tariffs .tariff .get_btn
+    {
+        font-size: var(--font_size);
+
+        height: 56px;
+        padding: 16px 26px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .desc
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .get_demo_btn
+    {
+        font-size: 28px;
+
+        margin-top: 48px;
+        padding: 28px 52px;
+    }
+
+
+    footer .contacts
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 724px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 60px;
+    }
+
+
+    .modal.success .icon
+    {
+        width: 132px;
+        height: 132px;
+        margin-bottom: 80px;
+    }
+
+
+    .modal.success .modal_title + .modal_title
+    {
+        margin-top: 80px;
+    }
+}
