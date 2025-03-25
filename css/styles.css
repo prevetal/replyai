@@ -1172,6 +1172,12 @@ header .email a
 }
 
 
+.first_section .chat .icons .dislike_btn .icon
+{
+    transform: rotate(180deg);
+}
+
+
 .first_section .chat .btns
 {
     display: flex;
@@ -1629,7 +1635,9 @@ header .email a
     flex-wrap: wrap;
     justify-content: flex-start;
 
-    height: 32px;
+    min-height: 32px;
+
+    gap: 19px;
 }
 
 
@@ -1640,8 +1648,10 @@ header .email a
     max-width: 100%;
 }
 
+
 .light_theme .steps .item .icons img:not(.dark),
-.dark_theme .steps .item .icons img.dark
+.dark_theme .steps .item .icons img.dark,
+.dark_theme .steps .item .icons img.general
 {
     display: block;
 }
